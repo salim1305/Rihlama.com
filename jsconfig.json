@@ -1,1 +1,6 @@
-// ...existing content from frontend/jsconfig.json...
+{
+	"compilerOptions": {
+		"baseUrl": "src"
+	},
+	"include": ["src"]
+}

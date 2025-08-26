@@ -1,1 +1,4 @@
-/* ...existing content from frontend/src/App.css... */
+.App {
+	text-align: center;
+	padding: 2rem;
+}
