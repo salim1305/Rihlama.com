@@ -1,7 +1,8 @@
-import React from "react";
+// ...existing code...
 
-function Contact() {
-	return <h2>Contact</h2>;
-}
+const Contact = () => {
+	// const navigate = useNavigate();
+	// ...le reste du code réel de la page...
+};
 
 export default Contact;

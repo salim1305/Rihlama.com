@@ -1,7 +1,9 @@
-import React from "react";
-
-function NotFound() {
-	return <h2>404 - Page Not Found</h2>;
+export default function NotFound() {
+	return (
+		<div className="notfound-page">
+			<h2>404 - Page non trouvée</h2>
+			<p>La page que vous recherchez n'existe pas ou a été déplacée.</p>
+			<a href="/">Retour à l'accueil</a>
+		</div>
+	);
 }
-
-export default NotFound;
