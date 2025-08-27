@@ -1,1 +1,7 @@
-// ...existing content from frontend/src/pages/Terms.jsx...
+import React from "react";
+
+function Terms() {
+	return <h2>Terms & Conditions</h2>;
+}
+
+export default Terms;

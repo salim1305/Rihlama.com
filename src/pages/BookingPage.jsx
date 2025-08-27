@@ -1,1 +1,7 @@
-// ...existing content from frontend/src/pages/BookingPage.jsx...
+import React from "react";
+
+function BookingPage() {
+	return <h2>Booking Page</h2>;
+}
+
+export default BookingPage;
