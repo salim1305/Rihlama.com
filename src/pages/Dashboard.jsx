@@ -9,6 +9,7 @@ import { Calendar, MapPin, Star, Users, Heart, MessageCircle, Settings, Plus, Ey
 import { mockUser, mockBookings, mockExperiences, mockMessages } from '../data/mock';
 
 // ...existing code...
+function Dashboard() {
 	const navigate = useNavigate();
 	// ...existing code...
 	const [bookings, setBookings] = useState([]);
@@ -46,7 +47,7 @@ import { mockUser, mockBookings, mockExperiences, mockMessages } from '../data/m
 								{booking.status}
 							</Badge>
 						</div>
-            
+			
 						<div className="space-y-1 text-sm text-gray-600">
 							<div className="flex items-center">
 								<MapPin className="h-3 w-3 mr-1" />
@@ -100,7 +101,7 @@ import { mockUser, mockBookings, mockExperiences, mockMessages } from '../data/m
 					<Heart className="h-4 w-4 text-red-500 fill-current" />
 				</button>
 			</div>
-      
+	  
 			<CardContent className="p-4">
 				<div className="flex items-start justify-between mb-2">
 					<div className="flex items-center text-sm text-gray-600 mb-1">
@@ -157,6 +158,9 @@ import { mockUser, mockBookings, mockExperiences, mockMessages } from '../data/m
 			</CardContent>
 		</Card>
 	);
+
+	// If you use user data, make sure to define it
+	const user = mockUser;
 
 	return (
 		<div className="min-h-screen bg-gray-50">
@@ -318,6 +322,7 @@ import { mockUser, mockBookings, mockExperiences, mockMessages } from '../data/m
 			</div>
 		</div>
 	);
-};
+}
 
 // Exportation par défaut unique
+export default Dashboard;

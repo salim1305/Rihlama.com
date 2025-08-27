@@ -360,15 +360,3 @@ const ExperienceDetails = () => {
 };
 
 export default ExperienceDetails;
-import { useNavigate, useParams } from 'react-router-dom';
-import { Button } from '../components/ui/button';
-import { Card, CardContent } from '../components/ui/card';
-import { ArrowLeft, Star, MapPin, Heart, ChevronLeft, ChevronRight, Share2 } from 'lucide-react';
-
-const ExperienceDetails = () => {
-	const navigate = useNavigate();
-	const { id } = useParams();
-	// ...le reste du code réel de la page...
-};
-
-export default ExperienceDetails;
