@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["frontend/src/*"],
+			"@components/*": ["frontend/src/components/*"],
+			"@pages/*": ["frontend/src/pages/*"],
+			"@contexts/*": ["frontend/src/contexts/*"],
+			"@hooks/*": ["frontend/src/hooks/*"],
+			"@services/*": ["frontend/src/services/*"],
+			"@data/*": ["frontend/src/data/*"],
+			"@translations/*": ["frontend/src/translations/*"]
+		},
+		"jsx": "react-jsx",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"target": "es6",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"checkJs": false
+	},
+	"include": [
+		"frontend/src",
+		"src"
+	]
+}
